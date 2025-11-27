@@ -18,34 +18,46 @@ const products = [
     category: 'sudaderak'
   },
   {
-    productName: "Kompua",
-    price: 40,
+    productName: "Sudadera beltza",
+    price: 30,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwt88d9dJBBmsvB5UUL6xY9via7FXJ-2l_jA&s",
-    category: 'kompuak'
+    category: 'sudaderak'
   },
   {
-    productName: "Arraultza",
+    productName: "Sudadera grisa",
+    price: 30,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFqK6fKKVxmBghn5lEb0cepBfVGC_-RUu0uw&s",
+    category: 'sudaderak'
+  },
+  {
+    productName: "Zapata beltzak",
     price: 50,
-    img: "https://res.cloudinary.com/pabcode/image/upload/v1710611492/e-commerce/huevo_uau0bz.png",
-    category: 'frutak'
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREK7xXmz6QbsNxV0vPUzHZi8TpjFbFBVYCUQ&s",
+    category: 'zapatak'
   },
   {
-    productName: "Mate",
+    productName: "Zapata zuriak",
     price: 60,
-    img: "https://res.cloudinary.com/pabcode/image/upload/v1710611821/e-commerce/ksmw5s3xg7eeakpva5xd_r9ood6.png",
-    category: 'edariak'
+    img: "https://png.pngtree.com/png-vector/20250115/ourmid/pngtree-men-white-sneakers-classic-and-fashionable-footwear-for-clipart-illustration-png-image_15187292.png",
+    category: 'zapatak'
   },
   {
-    productName: "Kafea",
+    productName: "Nike zapatak",
     price: 70,
-    img: "https://res.cloudinary.com/pabcode/image/upload/v1710612106/e-commerce/cafesitoo_oewcna.png",
-    category: 'edariak'
+    img: "https://png.pngtree.com/png-vector/20250129/ourmid/pngtree-trendy-nike-dunk-low-shoes-comfortable-top-sneakers-png-image_15363998.png",
+    category: 'zapatak'
   },
   {
-    productName: "Garagardoa",
-    price: 20,
-    img: "https://res.cloudinary.com/pabcode/image/upload/v1699869747/e-commerce/xhlekqrockwxzjskzppw.png",
-    category: 'edariak'
+    productName: "Txakera bakeroa",
+    price: 80,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZM2vqH40N0HNFwxhoRtmC5ZhpCiLpPLERQ&s",
+    category: 'txaketak'
+  },
+  {
+    productName: "Txakera larruzkoa",
+    price: 80,
+    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.vecteezy.com%2Fpng%2F46364806-rojo-cuero-chaqueta&psig=AOvVaw07XyGogJIST3zJgWvnLzOO&ust=1764329594681000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMion-WdkpEDFQAAAAAdAAAAABAE",
+    category: 'txaketak'
   },
 ]
 
