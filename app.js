@@ -1,26 +1,26 @@
 const products = [
   {
-    productName: "Sandia",
+    productName: "Kamiseta beltza",
     price: 15,
-    img: "https://res.cloudinary.com/pabcode/image/upload/v1699869750/e-commerce/ksmw5s3xg7eeakpva5xd.png",
-    category: 'frutak'
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DbSMckrVL5R5YwwaFCEWiq6FMhipVnX4rg&s",
+    category: 'kamisetak'
   },
   {
-    productName: "Bananita",
+    productName: "Kamiseta txuria",
+    price: 15,
+    img: "https://static.vecteezy.com/system/resources/previews/021/104/109/non_2x/white-t-shirt-free-png.png",
+    category: 'kamisetak'
+  },
+  {
+    productName: "Sudadera txuria",
     price: 30,
-    img: "https://res.cloudinary.com/pabcode/image/upload/v1699871193/e-commerce/mopgcvdiepr8axkazmcp.png",
-    category: 'frutak'
-  },
-  {
-    productName: "CPU",
-    price: 80,
-    img: "https://res.cloudinary.com/pabcode/image/upload/v1710612297/e-commerce/cpu_awimlt.png",
-    category: 'kompuak'
+    img: "https://static.vecteezy.com/system/resources/previews/009/257/254/original/white-hoodie-mockup-cutout-file-png.png",
+    category: 'sudaderak'
   },
   {
     productName: "Kompua",
     price: 40,
-    img: "https://res.cloudinary.com/pabcode/image/upload/v1700045911/e-commerce/compu_unvcoi.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwt88d9dJBBmsvB5UUL6xY9via7FXJ-2l_jA&s",
     category: 'kompuak'
   },
   {
