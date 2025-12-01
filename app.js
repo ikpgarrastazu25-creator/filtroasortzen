@@ -61,23 +61,6 @@ const products = [
   },
 ]
 
-/*function displayProducts(productsToShow) {
-  const shopContent = document.getElementById("shopContent");
-
-  shopContent.innerHTML = "";
-
-  productsToShow.forEach(function(product) {
-    const div = document.createElement("div");
-    div.className = 'card-products';
-    div.innerHTML = `
-      <img src="${product.img}" alt="algun-alt">
-      <h3>${product.productName}</h3>
-      <p class="price"> $ ${product.price}</p>
-      <button>Karritora gehitu</button>
-    `;
-    shopContent.append(div);
-  });
-}*/
 
 
 const displayProducts = (productsToShow) => {
@@ -108,11 +91,6 @@ const zapatakBtn = document.getElementById('zapatakBtn');
 const txaketakBtn = document.getElementById('txaketakBtn');
 const denakBtn = document.getElementById('denakBtn');
 
-/*
-frutakBtn.addEventListener('click', function() {
-  filterProducts('frutak');
-});
-*/
 
 kamisetakBtn.addEventListener('click', () => {
   filterProducts('kamisetak');
