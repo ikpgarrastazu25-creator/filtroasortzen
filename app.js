@@ -56,7 +56,7 @@ const products = [
   {
     productName: "Txakera larruzkoa",
     price: 80,
-    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.vecteezy.com%2Fpng%2F46364806-rojo-cuero-chaqueta&psig=AOvVaw07XyGogJIST3zJgWvnLzOO&ust=1764329594681000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMion-WdkpEDFQAAAAAdAAAAABAE",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8xkRQiAsaRvo5xeSv4zHs0fPngxp2Ikbn4g&s",
     category: 'txaketak'
   },
 ]
@@ -102,9 +102,10 @@ const filterProducts = (category) => {
   displayProducts(productsToShow)
 }
 
-const frutakBtn = document.getElementById('frutakBtn');
-const bebidasBtn = document.getElementById('garagardoakBtn');
-const kompuakBtn = document.getElementById('kompuakBtn');
+const kamisetakBtn = document.getElementById('kamisetakBtn');
+const bebidasBtn = document.getElementById('sudaderakBtn');
+const zapatakBtn = document.getElementById('zapatakBtn');
+const txaketakBtn = document.getElementById('txaketakBtn');
 const denakBtn = document.getElementById('denakBtn');
 
 /*
@@ -113,19 +114,21 @@ frutakBtn.addEventListener('click', function() {
 });
 */
 
-frutakBtn.addEventListener('click', () => {
-  filterProducts('frutak');
+kamisetakBtn.addEventListener('click', () => {
+  filterProducts('kamisetak');
 });
 
 
-garagardoakBtn.addEventListener('click', () => {
-  filterProducts('edariak');
+sudaderakBtn.addEventListener('click', () => {
+  filterProducts('sudaderak');
 });
 
-kompuakBtn.addEventListener('click', () => {
-  filterProducts('kompuak');
+zapatakBtn.addEventListener('click', () => {
+  filterProducts('zapatak');
 });
-
+txaketakBtn.addEventListener('click', () => {
+  filterProducts('txaketak');
+});
 denakBtn.addEventListener('click', () => {
   displayProducts(products)
 });
